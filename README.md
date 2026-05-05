@@ -12,7 +12,6 @@ Igue to landing page narzędzia, w którym użytkownik:
 2. System sprawdza, czy Google generuje dla tej frazy AI Overview.
 3. Generator zwraca gotowy blok HTML, dopasowany pod algorytm Google AI, do wklejenia w CMS (WordPress, Webflow, Wix, Shopify, itp.).
 
-Strona zawiera również opis funkcji, kroków działania, cennik z trzema planami (Starter, Pro, Custom) oraz sekcję FAQ.
 
 ## Technologie
 
