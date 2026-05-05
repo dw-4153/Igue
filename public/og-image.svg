@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#bfdbfe" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <path d="M0 375 H1200 M0 465 H1200 M0 555 H1200 M0 645 H1200 M0 735 H1200 M0 825 H1200"/>
+    <path d="M120 285 V915 M240 285 V915 M360 285 V915 M480 285 V915 M600 285 V915 M720 285 V915 M840 285 V915 M960 285 V915 M1080 285 V915"/>
+  </g>
+
+  <g transform="translate(80, 405)">
+    <rect x="0" y="0" width="120" height="120" rx="28" fill="#ffffff"/>
+    <path d="M60 26 L68 54 L96 60 L68 66 L60 94 L52 66 L24 60 L52 54 Z" fill="#2563eb"/>
+  </g>
+
+  <g transform="translate(220, 423)">
+    <rect width="220" height="46" rx="23" fill="url(#badge)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="28" y="30" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#dbeafe" letter-spacing="0.5">AI OVERVIEW · GOOGLE</text>
+  </g>
+
+  <text x="80" y="625" font-family="Inter, system-ui, sans-serif" font-size="86" font-weight="900" fill="#ffffff" letter-spacing="-2.5">Bądź cytowany przez</text>
+  <text x="80" y="722" font-family="Inter, system-ui, sans-serif" font-size="86" font-weight="900" fill="#bfdbfe" letter-spacing="-2.5">AI Overview Google</text>
+
+  <text x="80" y="790" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="500" fill="#dbeafe" opacity="0.85">Podajesz adres strony, dostajesz gotowy HTML do wklejenia.</text>
+
+  <g transform="translate(80, 832)">
+    <circle cx="10" cy="10" r="6" fill="#34d399"/>
+    <text x="28" y="16" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#bfdbfe">igue.pl</text>
+  </g>
+
+  <g transform="translate(1020, 360)" opacity="0.85">
+    <path d="M40 0 L50 30 L80 40 L50 50 L40 80 L30 50 L0 40 L30 30 Z" fill="#ffffff" opacity="0.22"/>
+  </g>
+  <g transform="translate(1060, 820)" opacity="0.65">
+    <path d="M25 0 L31 19 L50 25 L31 31 L25 50 L19 31 L0 25 L19 19 Z" fill="#ffffff" opacity="0.18"/>
+  </g>
+</svg>
